@@ -1,0 +1,50 @@
+[
+  {
+    "id": "arXiv:2303.11446",
+    "date": "Mar 2023",
+    "title": "Deep Reinforcement Learning for Quantitative Trading",
+    "authors": "Li, et al.",
+    "venue": "Quantitative Finance Archive",
+    "tags": ["Quant Finance", "Reinforcement Learning"],
+    "abstract": "This paper presents a comprehensive framework applying deep Q-networks (DQN) and Proximal Policy Optimization (PPO) to continuous action spaces in algorithmic trading environments. We demonstrate how RL agents can learn robust representations of market states from raw limit order book data and execute trades that balance expected return against transaction costs.",
+    "key_contributions": [
+      "Formulation of the trading process as a Markov Decision Process (MDP) with transaction costs.",
+      "Novel reward function design penalizing high turnover and drawdown.",
+      "Empirical validation against traditional momentum and mean-reversion baselines on 5 years of tick-level equities data."
+    ],
+    "relevance": "Provides a practical bridge between theoretical RL and live trading systems, essential for ML Researchers entering the quant space.",
+    "link": "https://arxiv.org/"
+  },
+  {
+    "id": "arXiv:1706.03762",
+    "date": "Jun 2017",
+    "title": "Attention Is All You Need",
+    "authors": "Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, Polosukhin",
+    "venue": "NIPS 2017",
+    "tags": ["Deep Learning", "Transformers", "NLP"],
+    "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.",
+    "key_contributions": [
+      "Introduction of Multi-Head Self-Attention.",
+      "Elimination of sequential computation found in RNNs, enabling massive parallelization.",
+      "Establishment of the foundation for all modern LLMs (GPT, BERT, Claude, etc.)."
+    ],
+    "relevance": "The most important paper in modern AI. Understanding the Transformer is mandatory for any Machine Learning Engineer.",
+    "link": "https://arxiv.org/abs/1706.03762"
+  },
+  {
+    "id": "Editorial",
+    "date": "Sep 2026",
+    "title": "Limit Order Book Modelling via Microstructure",
+    "authors": "Quant Hub Research",
+    "venue": "Internal Research",
+    "tags": ["Market Microstructure", "HFT", "Stochastic Modeling"],
+    "abstract": "An intuitive breakdown of high-frequency order book dynamics. We model the limit order book as a multi-dimensional queuing system and investigate the impact of adverse selection on market making strategies. By estimating the probability of order execution and the expected price drift, we derive optimal quoting strategies for High-Frequency Trading (HFT) firms.",
+    "key_contributions": [
+      "Derivation of the Avellaneda-Stoikov market making model.",
+      "Analysis of order flow imbalance (OFI) as a short-term price predictor.",
+      "Simulation of queue position priority in FIFO matching engines."
+    ],
+    "relevance": "Fundamental reading for Quantitative Researchers and Developers looking to understand the mechanics of electronic exchanges.",
+    "link": "#"
+  }
+]

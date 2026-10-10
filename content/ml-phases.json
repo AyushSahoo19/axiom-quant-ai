@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Efficient Deep Learning",
+    "desc": "Overview of deep learning efficiency challenges, latency, memory, energy constraints, and the roadmap to efficient models."
+  },
+  {
+    "id": 2,
+    "title": "Pruning and Sparsity",
+    "desc": "Removing redundant weights to reduce memory footprint and compute. Unstructured vs structured pruning, lottery ticket hypothesis."
+  },
+  {
+    "id": 3,
+    "title": "Quantization",
+    "desc": "Reducing precision of weights and activations. INT8 quantization, Quantization-Aware Training (QAT), Post-Training Quantization (PTQ)."
+  },
+  {
+    "id": 4,
+    "title": "Neural Architecture Search (NAS)",
+    "desc": "Automating the design of neural networks to optimize for both accuracy and efficiency under hardware constraints."
+  },
+  {
+    "id": 5,
+    "title": "Knowledge Distillation",
+    "desc": "Transferring knowledge from a large teacher model to a smaller, more efficient student model."
+  },
+  {
+    "id": 6,
+    "title": "Hardware for Deep Learning",
+    "desc": "Basics of AI accelerators, systolic arrays, GPUs, and how algorithm-hardware co-design enables efficiency."
+  }
+]

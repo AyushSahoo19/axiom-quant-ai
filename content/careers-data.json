@@ -1,0 +1,72 @@
+[
+  {
+    "id": "qr",
+    "role": "Quantitative Researcher",
+    "type": "Hedge Funds / Prop Trading",
+    "compensation": "$300K - $1M+ Total Comp",
+    "desc": "Quantitative Researchers (QRs) apply rigorous mathematical and statistical techniques to massive datasets to uncover predictive signals (alpha) and design systematic trading strategies.",
+    "skills": ["Stochastic Calculus", "Time Series Analysis", "Python", "C++", "Linear Algebra", "Machine Learning"],
+    "responsibilities": [
+      "Develop predictive alpha models using statistical arbitrage techniques.",
+      "Research market microstructure and tick-level data.",
+      "Design systematic execution logic to minimize market impact.",
+      "Collaborate with Quant Developers to deploy models into production."
+    ],
+    "firms": [
+      {"name": "Citadel", "link": "https://www.citadel.com/careers/"},
+      {"name": "Jane Street", "link": "https://www.janestreet.com/join-jane-street/"},
+      {"name": "Two Sigma", "link": "https://www.twosigma.com/careers/"},
+      {"name": "PDT Partners", "link": "https://pdtpartners.com/careers"}
+    ],
+    "prep_links": [
+      {"title": "Volume I: Mathematical Statistics", "url": "/resources"},
+      {"title": "Volume II: Time Series & Portfolio", "url": "/resources#phase7"}
+    ]
+  },
+  {
+    "id": "mle",
+    "role": "Machine Learning Engineer",
+    "type": "AI Labs / Big Tech",
+    "compensation": "$250K - $800K+ Total Comp",
+    "desc": "Machine Learning Engineers bridge the gap between research and production. They are responsible for scaling foundation models, optimizing inference, and building the distributed infrastructure required to train massive neural networks.",
+    "skills": ["PyTorch", "Distributed Systems", "CUDA", "Triton", "C++", "Python", "System Design"],
+    "responsibilities": [
+      "Scale foundation models across thousands of GPUs.",
+      "Optimize GPU memory kernels for maximum throughput.",
+      "Deploy low-latency inference endpoints.",
+      "Implement novel architectures (e.g., Transformers, MoE) from research papers."
+    ],
+    "firms": [
+      {"name": "OpenAI", "link": "https://openai.com/careers"},
+      {"name": "DeepMind", "link": "https://deepmind.google/about/careers/"},
+      {"name": "Meta FAIR", "link": "https://ai.meta.com/"},
+      {"name": "Anthropic", "link": "https://www.anthropic.com/careers"}
+    ],
+    "prep_links": [
+      {"title": "Volume III: Efficient Machine Learning", "url": "/efficient-ml"}
+    ]
+  },
+  {
+    "id": "qd",
+    "role": "Quantitative Developer",
+    "type": "High-Frequency Trading",
+    "compensation": "$250K - $700K+ Total Comp",
+    "desc": "Quantitative Developers (Core Devs) build the ultra-low latency infrastructure that powers algorithmic trading. They focus on hardware-sympathetic programming, kernel bypass, and optimizing code to execute in nanoseconds.",
+    "skills": ["C++20", "Low Latency Systems", "Network Stack (TCP/UDP)", "Computer Architecture", "Linux Kernel", "FPGA"],
+    "responsibilities": [
+      "Optimize order routing engines for microsecond/nanosecond latencies.",
+      "Build high-throughput market data feed handlers.",
+      "Implement kernel bypass (e.g., Solarflare OpenOnload).",
+      "Ensure determinism and zero-allocation execution paths."
+    ],
+    "firms": [
+      {"name": "Optiver", "link": "https://www.optiver.com/working-at-optiver/"},
+      {"name": "Jump Trading", "link": "https://www.jumptrading.com/careers/"},
+      {"name": "Hudson River Trading (HRT)", "link": "https://www.hudsonrivertrading.com/careers/"},
+      {"name": "Tower Research", "link": "https://www.tower-research.com/careers"}
+    ],
+    "prep_links": [
+      {"title": "Volume II: Quant Development Phase", "url": "/resources#phase15"}
+    ]
+  }
+]

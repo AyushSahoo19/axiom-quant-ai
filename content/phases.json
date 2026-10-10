@@ -1,0 +1,21 @@
+[
+  { "id": 0, "title": "Orientation & Environment", "desc": "Quant learning and coding environment" },
+  { "id": 1, "title": "Mathematical Foundation", "desc": "Mathematical fluency" },
+  { "id": 2, "title": "Probability", "desc": "Deep uncertainty modelling" },
+  { "id": 3, "title": "Mathematical Statistics", "desc": "Statistical inference" },
+  { "id": 4, "title": "Programming", "desc": "Python + C++ competence" },
+  { "id": 5, "title": "Data & Computing", "desc": "Research-grade data workflows" },
+  { "id": 6, "title": "Statistical Modelling", "desc": "Regression and inference" },
+  { "id": 7, "title": "Time Series", "desc": "Financial time-series research" },
+  { "id": 8, "title": "Financial Markets", "desc": "Market understanding" },
+  { "id": 9, "title": "Systematic Trading", "desc": "Strategy understanding" },
+  { "id": 10, "title": "Backtesting & Research", "desc": "Scientific strategy validation" },
+  { "id": 11, "title": "Machine Learning", "desc": "Predictive modelling" },
+  { "id": 12, "title": "Portfolio & Risk", "desc": "Portfolio construction" },
+  { "id": 13, "title": "Market Microstructure", "desc": "Trading and execution" },
+  { "id": 14, "title": "Advanced Mathematics", "desc": "Stochastic and advanced modelling" },
+  { "id": 15, "title": "Quant Development", "desc": "High-performance systems" },
+  { "id": 16, "title": "Projects & Research", "desc": "Portfolio of evidence" },
+  { "id": 17, "title": "Interviews", "desc": "Hiring preparation" },
+  { "id": 18, "title": "Career & Applications", "desc": "Internship/job execution" }
+]
